@@ -208,6 +208,7 @@ zh-CN:
         signature: 电子邮件签名
         remember_me: 记住我
         label_ids: 标签
+        name: 名字
         locale: 语言
         time_zone: 时区
         per_page: 每页显示的咨询数目
