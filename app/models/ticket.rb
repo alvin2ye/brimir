@@ -125,7 +125,7 @@ class Ticket < ApplicationRecord
     end
     self.notified_user_ids = users.map do |user|
       user.id if user.is_working?
-    end
+    end.compact
   end
 
   def is_unread?(user)
