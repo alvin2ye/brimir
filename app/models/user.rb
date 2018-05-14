@@ -117,6 +117,10 @@ class User < ApplicationRecord
     User.where(email: EmailAddress.pluck(:email))
   end
 
+  def name_and_email
+    [name, email].join(' ')
+  end
+
   def client?
     not agent?
   end
