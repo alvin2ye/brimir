@@ -212,6 +212,8 @@ zh-CN:
         locale: 语言
         time_zone: 时区
         per_page: 每页显示的咨询数目
+      reply:
+        from: 发送邮件地址
 
       ticket:
         from: 来自于电子邮件
